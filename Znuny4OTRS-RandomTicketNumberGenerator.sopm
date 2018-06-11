@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny4OTRS-RandomTicketNumberGenerator</Name>
-    <Version>6.0.1</Version>
+    <Version>6.0.2</Version>
+    <ChangeLog Version="6.0.2" Date="2018-06-11 16:53:23 +0200">Removed unnecessary code.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2018-06-07 17:34:21 +0200">Initial release</ChangeLog>
     <Framework>6.0.x</Framework>
     <PackageRequired Version="6.0.22">Znuny4OTRS-Repo</PackageRequired>
