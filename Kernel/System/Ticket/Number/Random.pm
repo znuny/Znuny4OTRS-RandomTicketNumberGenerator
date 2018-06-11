@@ -33,19 +33,6 @@ sub TicketNumberBuild {
 
     my $ConfigObject = $Kernel::OM->Get('Kernel::Config');
 
-    $Offset ||= 0;
-
-    my $BaseCounter = 1;
-    if ( $Self->TicketNumberCounterIsEmpty() ) {
-        $BaseCounter = $Self->InitialCounterOffsetCalculate();
-    }
-
-    my $Counter = $Self->TicketNumberCounterAdd(
-        Offset => $BaseCounter + $Offset,
-    );
-
-    return if !$Counter;
-
     my $Count = int rand 9999999999;
     $Count    = sprintf "%.*u", 10, $Count;
 
