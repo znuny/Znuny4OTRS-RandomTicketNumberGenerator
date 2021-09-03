@@ -9,10 +9,6 @@
 # did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 # --
 
-#
-# Port of OTRS 5 random number generator for OTRS 6
-# --
-
 package Kernel::System::Ticket::Number::Random;
 
 use strict;

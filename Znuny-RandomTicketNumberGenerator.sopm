@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
-    <Name>Znuny4OTRS-RandomTicketNumberGenerator</Name>
+    <Name>Znuny-RandomTicketNumberGenerator</Name>
     <Version>6.0.5</Version>
     <ChangeLog Version="6.0.5" Date="2021-02-12 17:34:32 +0100">Happy new year. Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.4" Date="2020-04-07 18:03:52 +0200">Tidied code and improved documentation.</ChangeLog>
     <ChangeLog Version="6.0.3" Date="2018-11-01 09:54:11 +0100">Added .gitlab-ci.yml.</ChangeLog>
     <ChangeLog Version="6.0.2" Date="2018-06-11 16:53:23 +0200">Removed unnecessary code.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2018-06-07 17:34:21 +0200">Initial release</ChangeLog>
-    <Framework>6.0.x</Framework>
-    <PackageRequired Version="6.0.71">Znuny4OTRS-Repo</PackageRequired>
+    <Framework>6.1.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
@@ -17,4 +16,5 @@
     <Filelist>
         <File Permission="660" Location="Kernel/System/Ticket/Number/Random.pm"/>
     </Filelist>
+    <PackageMerge Name="Znuny4OTRS-RandomTicketNumberGenerator" TargetVersion="6.0.5"></PackageMerge>
 </otrs_package>
