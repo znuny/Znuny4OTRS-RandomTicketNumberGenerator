@@ -13,7 +13,7 @@ To activate the generator, the module __Kernel::System::Ticket::Number::Random__
 
 **Prerequisites**
 
-- OTRS 6.1.x
+- OTRS 6.2.x
 
 **Installation**
 
@@ -21,7 +21,7 @@ Download the package and install it via admin interface -> package manager.
 
 **Download**
 
-For download see [https://www.znuny.com/en/#!/addons](https://www.znuny.com/en/#!/addons)
+For download see [https://www.znuny.com/add-ons/](https://www.znuny.com/add-ons/)
 
 **Commercial Support**
 
