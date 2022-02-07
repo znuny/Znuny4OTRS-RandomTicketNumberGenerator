@@ -13,7 +13,7 @@ To activate the generator, the module __Kernel::System::Ticket::Number::Random__
 
 **Prerequisites**
 
-- OTRS 6.2.x
+- Znuny 6.2.x
 
 **Installation**
 
